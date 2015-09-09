@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Meme OCR",
+		"description": "Extract text from fresh memes",
+		"img": "/static/assets/img/memeocr.png",
+		"links": [
+			{
+				"action": "Browse",
+				"url": "http://memeocr.3341b.com/"
+			},
+			{
+				"action": "Source",
+				"url": "https://github.com/PiJoules/Text-from-Memes"
+			}
+		]
+	}
+]

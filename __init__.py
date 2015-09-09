@@ -16,7 +16,9 @@ import json
 def index():
 	with current_app.open_resource("people.json") as f:
 		people = json.load(f)
-	return render_template("index.html", people=people)
+	with current_app.open_resource("projects.json") as f:
+		projects = json.load(f)
+	return render_template("index.html", people=people, projects=projects)
 
 
 if __name__ == '__main__':
