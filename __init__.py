@@ -14,7 +14,7 @@ import json
 # Root directory
 @app.route('/')
 def index():
-	with open("people.json") as f:
+	with current_app.open_resource("people.json") as f:
 		people = json.load(f)
 	return render_template("index.html", people=people)
 
