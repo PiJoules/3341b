@@ -1,9 +1,54 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Title go here</title>
-	</head>
-	<body>
-		<h1>Hello world!</h1>
-	</body>
-</html>
+{% extends "base.html" %}
+
+{% block extra_styles %}
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/ct.css') }}" />
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+            <div class="page-header">
+                <h1>Lab members <small><a href="http://members.3341b.com/">(Meet the team)</a></small></h1>
+            </div>
+            <div class="row">
+                {% for person in people %}
+	                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 mix collection-template cat-premium" style="display: inline-block;">
+	                    <div class="card">
+	                        <div class="thumbnail">
+	                            <img src="{{ person.img }}">
+	                            <a href="{{ person.links.0.url }}">
+	                                <div class="thumb-cover"></div>
+	                            </a>
+	                        </div>
+	                        <div class="card-info-container">
+	                            <div class="card-info">
+	                                <div class="moving">
+	                                    <a href="{{ person.links.0.url }}">
+	                                        <h4>{{ person.name }}</h4>
+	                                        <p>{{ person.description }}</p>
+	                                    </a>
+	                                    <b class="actions">
+	                                    	{% for link in person.links %}
+	                                    		<a class="blue-text" target="_blank" href="{{ link.url }}">{{ link.action }}</a>
+	                                    		{% if not loop.last %}
+	                                    			<b class="separator">|</b>
+	                                    		{% endif %}
+	                                    	{% endfor %}
+	                                    </b>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+				{% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/ct.js') }}"></script>
+{% endblock %}

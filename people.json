@@ -1,0 +1,46 @@
+[
+	{
+		"name": "Leonard Chan",
+		"description": "Residential programmer/dank meme",
+		"img": "https://avatars2.githubusercontent.com/u/6019989?v=3&s=460",
+		"links": [
+			{
+				"action": "Browse",
+				"url": "http://leonardchan.me/"
+			}
+		]
+	},
+	{
+		"name": "Rob Hausler",
+		"description": "Residential lvl. 420 professor in Atheism",
+		"img": "https://media.licdn.com/media/AAEAAQAAAAAAAAMiAAAAJDBmODc0OGMyLTdmZDMtNGI3NS1iNWVjLTE3YTE0MTA2YWQ0Yw.jpg",
+		"links": [
+			{
+				"action": "Browse",
+				"url": "https://www.linkedin.com/pub/rob-hausler/79/40b/a2b"
+			}
+		]
+	},
+	{
+		"name": "John Maloney",
+		"description": "Residential John Maloney",
+		"img": "https://www.cs.auckland.ac.nz/historydisplays/FifthFloor/ComputerMouse/MouseMainImages/WirelessMouse.jpg",
+		"links": [
+			{
+				"action": "Browse",
+				"url": "https://github.com/jmal0"
+			}
+		]
+	},
+	{
+		"name": "Ryan Young",
+		"description": "Residential machine learning expert",
+		"img": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAJbAAAAJDc1NDQ0OWZkLWZlZDItNDc0Zi1iYzhjLTYxYmQ3Zjg5NjMyOQ.jpg",
+		"links": [
+			{
+				"action": "Browse",
+				"url": "http://rdyoung.us/"
+			}
+		]
+	}
+]
