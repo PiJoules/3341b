@@ -13,5 +13,20 @@
 				"url": "https://github.com/PiJoules/Text-from-Memes"
 			}
 		]
+	},
+	{
+		"name": "Sittr",
+		"description": "Is your phone sitting?",
+		"img": "/static/assets/img/sittr.png",
+		"links": [
+			{
+				"action": "Browse",
+				"url": "http://sittr.3341b.com/"
+			},
+			{
+				"action": "Source",
+				"url": "https://github.com/PiJoules/sittr"
+			}
+		]
 	}
 ]
