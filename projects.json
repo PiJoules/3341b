@@ -28,5 +28,20 @@
 				"url": "https://github.com/PiJoules/sittr"
 			}
 		]
+	},
+	{
+		"name": "Low Poly",
+		"description": "Create low poly meshes of images",
+		"img": "/static/assets/img/lowpoly.png",
+		"links": [
+			{
+				"action": "Browse",
+				"url": "http://lowpoly.3341b.com/"
+			},
+			{
+				"action": "Source",
+				"url": "https://github.com/PiJoules/lowpoly"
+			}
+		]
 	}
 ]
