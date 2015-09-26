@@ -43,5 +43,35 @@
 				"url": "https://github.com/PiJoules/lowpoly"
 			}
 		]
+	},
+	{
+		"name": "Dank Meme Browser",
+		"description": "Only for browsing dank memes",
+		"img": "/static/assets/img/memebrowse.png",
+		"links": [
+			{
+				"action": "Browse",
+				"url": "http://memebrowse.appspot.com/"
+			},
+			{
+				"action": "Source",
+				"url": "https://github.com/PiJoules/DankMemeBrowser"
+			}
+		]
+	},
+	{
+		"name": "Translation",
+		"description": "Ascend to euphoria",
+		"img": "/static/assets/img/translation.png",
+		"links": [
+			{
+				"action": "Browse",
+				"url": "http://translation.3341b.com/"
+			},
+			{
+				"action": "Source",
+				"url": "https://github.com/PiJoules/translation"
+			}
+		]
 	}
 ]
