@@ -73,5 +73,20 @@
 				"url": "https://github.com/PiJoules/translation"
 			}
 		]
+	},
+	{
+		"name": "Sensations",
+		"description": "Feel me",
+		"img": "/static/assets/img/feelme.png",
+		"links": [
+			{
+				"action": "Browse",
+				"url": "http://pijoules.github.io/sensations/"
+			},
+			{
+				"action": "Source",
+				"url": "https://github.com/PiJoules/sensations"
+			}
+		]
 	}
 ]
