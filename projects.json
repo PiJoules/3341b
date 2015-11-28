@@ -88,5 +88,20 @@
 				"url": "https://github.com/PiJoules/sensations"
 			}
 		]
+	},
+	{
+		"name": "[Regx]+",
+		"description": "Regular expression crossword.",
+		"img": "/static/assets/img/regxp.png",
+		"links": [
+			{
+				"action": "Browse",
+				"url": "http://regxp.3341b.com/"
+			},
+			{
+				"action": "Source",
+				"url": "https://github.com/PiJoules/Regxplus"
+			}
+		]
 	}
 ]
